@@ -1,0 +1,176 @@
+﻿{
+  "valuation": {
+    "weighted_target": 157.51465534613834,
+    "weighted_return_pct": 25.479690389658515,
+    "base_reward_bear_risk": 0.5331745361888215,
+    "base_dcf": 114.3292631877821,
+    "reverse_normalized_fcff": 137210.87,
+    "reverse_five_year_cagr_pct": 25.347363301494774,
+    "reverse_residual_pct": -6.661338147750939e-14,
+    "sensitivity": [
+      {
+        "wacc": 12.0,
+        "g": 2.0,
+        "price": 130.37261976224346
+      },
+      {
+        "wacc": 12.0,
+        "g": 3.0,
+        "price": 140.16563036911654
+      },
+      {
+        "wacc": 12.0,
+        "g": 4.0,
+        "price": 152.40689362770794
+      },
+      {
+        "wacc": 14.0,
+        "g": 2.0,
+        "price": 108.16355158283712
+      },
+      {
+        "wacc": 14.0,
+        "g": 3.0,
+        "price": 114.3292631877821
+      },
+      {
+        "wacc": 14.0,
+        "g": 4.0,
+        "price": 121.72811711371614
+      },
+      {
+        "wacc": 16.0,
+        "g": 2.0,
+        "price": 92.34518219152986
+      },
+      {
+        "wacc": 16.0,
+        "g": 3.0,
+        "price": 96.48059703848688
+      },
+      {
+        "wacc": 16.0,
+        "g": 4.0,
+        "price": 101.30524769327009
+      },
+      {
+        "wacc": 18.0,
+        "g": 2.0,
+        "price": 80.51756819226976
+      },
+      {
+        "wacc": 18.0,
+        "g": 3.0,
+        "price": 83.42175946456399
+      },
+      {
+        "wacc": 18.0,
+        "g": 4.0,
+        "price": 86.74083520432885
+      }
+    ],
+    "cash_plus_debt_securities": 53512,
+    "financial_debt": 32371,
+    "listed_equity": 44219,
+    "nonmarketable_investments": 65528,
+    "total_investments": 109747,
+    "entry_low": 100,
+    "entry_high": 110
+  },
+  "scenarios": {
+    "bull": {
+      "eps": 14.123582437117365,
+      "target": 268.34806630522996,
+      "return_pct": 113.7720595118537
+    },
+    "base": {
+      "eps": 11.32473331679484,
+      "target": 158.54626643512776,
+      "return_pct": 26.30149481010735
+    },
+    "bear": {
+      "eps": 6.360606291341116,
+      "target": 63.606062913411165,
+      "return_pct": -49.32999050951074
+    }
+  },
+  "ttm": {
+    "revenue": 361807,
+    "gross_profit": 271068,
+    "operating_income": 239089,
+    "net_income": 226256,
+    "ocf": 158862,
+    "capex": 10140,
+    "principal": 150,
+    "sbc": 7676,
+    "da": 4189,
+    "fcf": 148572,
+    "eps": 9.31,
+    "fcf_yield": 4.893565348909213,
+    "pe": 13.483351235230934,
+    "p_fcf": 20.434998384621597,
+    "ocf_ni": 0.7021338660632204,
+    "fcf_margin": 41.06388212500035,
+    "ebitda_operating": 243278,
+    "ev_sales": 8.332971943605292,
+    "ev_ebitda": 12.392931461126777
+  },
+  "diagnostics": {
+    "q3_ocf_growth": 103.17052631578947,
+    "q3_fcf_growth": 98.18461677758161,
+    "q3_inventory_yoy": 100.78851597250305,
+    "q3_ar_yoy": 142.67916504447305,
+    "q3_ar_qoq": 28.50346500895986,
+    "q3_inventory_qoq": 25.808392715756145,
+    "q3_eps_non_gaap": 2.68,
+    "q2_eps_non_gaap": 2.22,
+    "q3_prior_eps_non_gaap_recast": 1.27,
+    "q3_eps_surprise": 8.502024291497978,
+    "q3_revenue_surprise_lseg": 6.171753276509939,
+    "q3_revenue_surprise_alternative": 6.474264705882349,
+    "q3_revenue_beat_company": 7.26296296296296,
+    "q3_gpm_beat_company_pp": 0.8213114188045978,
+    "q4_guidance_growth": 12.219881910155038,
+    "fy27_revenue_guidance_bridge": 423681,
+    "fy28_revenue_guidance_bridge": 741441.75,
+    "q3_dc_share": 92.88353302717448,
+    "q3_edge_share": 7.07848485894824,
+    "buyback_avg_fy26": 143.21985815602838,
+    "buyback_vs_current": -12.351540061404387,
+    "9m_equity_purchase_vs_fcf": 51.11197128580477,
+    "9m_equity_gain_vs_pretax": 11.556660481701424,
+    "q3_accruals": 4.919850966120787,
+    "q3_cash_conversion": 0.7390904774304226,
+    "9m_cash_conversion": 0.669269000583752,
+    "moat_margin_gap_amd": 20.922828948893553,
+    "amd_gpm": 53.898482469911045,
+    "amd_opm": 21.170666068625252,
+    "illustrative_capex_payback_years": 4.0,
+    "q3_opm_non_gaap": 67.2456061600083,
+    "q3_gaap_nongaap_eps_gap": -0.7407407407407418,
+    "market_cap_spot_shares": 3031172.91,
+    "equity_quality_score": 5.0,
+    "tam_2026_infra": 1563000,
+    "tam_2027_infra": 2397000,
+    "server_2026": 527600,
+    "server_2027": 957200,
+    "tam_2031_scenario": 3889244.159999999,
+    "sam_2026_scenario": 342940.0,
+    "sam_2031_scenario": 853344.4607999998,
+    "tam_cagr_assumption": 20,
+    "sam_capture_assumption": 65,
+    "supply_commitments_q2": 279000,
+    "supply_commitments_q3": 390000,
+    "msft_capex_q1": 45200,
+    "alphabet_capex_low": 195000,
+    "alphabet_capex_high": 205000,
+    "founder_proxy_ownership": 3.58,
+    "base_revenue_growth": 52.014748194479374,
+    "base_five_year_revenue_cagr": 18.90614444049468,
+    "base_dcf_discount": -8.9227569602628,
+    "base_sbc_deducted_ttm_fcf": 140896,
+    "fy26_investment_gain": 8918,
+    "fy25_investment_gain": 1030,
+    "fy24_investment_gain": 238
+  }
+}
